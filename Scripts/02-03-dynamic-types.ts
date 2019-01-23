@@ -3,9 +3,9 @@ module demo_02_03 {
     person = 'Sam D-C';
     console.log(person.substring(1,4));
 
-    person = {
-        name: 'Colleen',
-        age: 25
-    }
+    // person = {
+    //     name: 'Colleen',
+    //     age: 25
+    // }
     console.log(person.substring(1,4));
 }
