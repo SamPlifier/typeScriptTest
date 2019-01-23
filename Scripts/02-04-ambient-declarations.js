@@ -9,5 +9,5 @@ var demo_02_04;
     };
     var value = person.fullName(); //ts will show highlight error if () missing since, even if you don't know KO, you know that person.fullName was causing an error. Just so happens KO observable wraps name in a function, thus () are required.
     console.log(value);
-    console.log(ko);
+    // console.log(ko);
 })(demo_02_04 || (demo_02_04 = {}));
