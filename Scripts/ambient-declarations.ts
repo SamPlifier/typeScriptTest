@@ -1,5 +1,4 @@
-/// <reference path="./Typings/knockout.d.ts"/>
-import 'knockout';
+/// <reference path="Typings/knockout.d.ts"/>
 
 declare var ko: KnockoutStatic;
 
@@ -10,6 +9,7 @@ module demo_02_04 {
             id: id,
             fullName: name
     };
-    let value: string = person.fullName();//ts will show highlight error if () missing since, even if you don't know KO, you know that person.fullName was causing an error. Just so happens KO observable wraps name in a function.
+    let value: string = person.fullName();//ts will show highlight error if () missing since, even if you don't know KO, you know that person.fullName was causing an error. Just so happens KO observable wraps name in a function, thus () are required.
     console.log(value);
+    // console.log(ko);
 }
